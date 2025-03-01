@@ -3,7 +3,7 @@
 1. **Clone 專案並解壓縮 phpMyAdmin**
 2. **安裝 WampServer**
    - 下載 **WampServer**（版本 3.3.0 x64 以上皆可）
-   - 若缺少 **Visual C++** 套件，請至 `Download.rar` 下載四個執行檔並安裝
+   - 若缺少 **Visual C++** 套件，請至官網搜尋錯誤訊息上的四個執行檔並安裝
 3. **將專案放入 WampServer**
    - 下載完成後，將整個專案壓縮成 `SEP` 資料夾，放置於 `wamp/www/`
 4. **啟動 WampServer**
