@@ -1,0 +1,22 @@
+開啟命令提示字元
+
+在 WampServer 啟動狀態下，進入 MySQL 的安裝路徑，例如：
+
+C:\wamp\bin\mysql\mysql{版本}\bin
+接著輸入：
+
+mysql -u root
+（不輸入密碼，直接按 Enter）
+輸入 ALTER USER 指令
+
+登入 MySQL 後，輸入：
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY '你的新密碼';
+FLUSH PRIVILEGES;
+這樣就成功為 root 設定密碼了。
+
+測試登入
+
+退出 MySQL，再次輸入：
+mysql -u root -p
+輸入剛設定的新密碼，若能成功登入，表示密碼已生效。
