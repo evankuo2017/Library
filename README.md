@@ -1,7 +1,18 @@
 # Library
-clone後將phpmyadmin解壓縮
-先下載wamp(3.3.0 x64以上版本皆可)然後如果缺少Visual C++套件就去Download.rar下載那四個執行檔
-下載完成後將整個專案包成SEP資料，夾丟到wamp的www底下
-啟動wamp後就可以用localhost/SEP來看網頁首頁、local host/SEP/phpmyadmin來看資料庫
-最後MySQL server的root密碼更改方式在密碼問題.txt
-成功登入後可以加入一個新的資料庫library再從SEP中匯入library.sql
+
+1. **Clone 專案並解壓縮 phpMyAdmin**
+2. **安裝 WampServer**
+   - 下載 **WampServer**（版本 3.3.0 x64 以上皆可）
+   - 若缺少 **Visual C++** 套件，請至 `Download.rar` 下載四個執行檔並安裝
+3. **將專案放入 WampServer**
+   - 下載完成後，將整個專案壓縮成 `SEP` 資料夾，放置於 `wamp/www/`
+4. **啟動 WampServer**
+   - 透過瀏覽器訪問：
+     - `localhost/SEP` 查看網頁首頁
+     - `localhost/SEP/phpmyadmin` 查看資料庫管理頁面
+5. **更改 MySQL root 密碼**
+   - 參考 `密碼問題.txt`
+6. **建立 Library 資料庫**
+   - 成功登入後，新增 **library** 資料庫
+   - 從 `SEP` 中匯入 `library.sql`
+
